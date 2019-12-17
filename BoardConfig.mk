@@ -125,6 +125,10 @@ TARGET_USE_QTI_BT_SAR := true
 TARGET_USE_QTI_BT_CHANNEL_AVOIDANCE := true
 BOARD_USES_COMMON_BLUETOOTH_HAL := true
 
+# Camera
+TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
+    /vendor/bin/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service=27
+
 # Display
 TARGET_USES_HWC2 := true
 TARGET_USES_DRM_PP := true
