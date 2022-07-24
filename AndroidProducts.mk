@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_r5x.mk
+    $(LOCAL_DIR)/fluid_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_r5x-user \
-    superior_r5x-userdebug \
-    superior_r5x-eng
+    fluid_r5x-user \
+    fluid_r5x-userdebug \
+    fluid_r5x-eng

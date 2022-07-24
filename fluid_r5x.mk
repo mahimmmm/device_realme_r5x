@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common CorvusOS stuff
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -33,7 +33,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := superior_r5x
+PRODUCT_NAME := fluid_r5x
 PRODUCT_MODEL := Realme 5 Series
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
