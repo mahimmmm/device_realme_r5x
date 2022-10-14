@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_r5x.mk
+    $(LOCAL_DIR)/evolution_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_r5x-user \
-    cherish_r5x-userdebug \
-    cherish_r5x-eng
+    evolution_r5x-user \
+    evolution_r5x-userdebug \
+    evolution_r5x-eng
