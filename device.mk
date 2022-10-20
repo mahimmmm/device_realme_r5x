@@ -144,6 +144,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsuspend
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/off_chg.sh:install/bin/off_chg.sh \
+    $(LOCAL_PATH)/rootdir/bin/charger:install/bin/charger
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore

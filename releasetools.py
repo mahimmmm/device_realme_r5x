@@ -39,5 +39,7 @@ def AddImage(info, basename, dest):
 def OTA_InstallEnd(info):
   AddImage(info, "dtbo.img", "/dev/block/bootdevice/by-name/dtbo")
   AddImage(info, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
+  info.script.AppendExtra('mount("ext4", "EMMC", "/dev/block/bootdevice/by-name/system", "/system_root");')
+  info.script.AppendExtra('run_program("/sbin/sh", "/tmp/install/bin/off_chg.sh");')
+  info.script.AppendExtra('unmount("/system_root");')
   return
-
