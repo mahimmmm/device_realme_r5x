@@ -46,5 +46,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="unknown-user 10 QKQ1.200209.002 unknown release-keys"
 
 # Maintainer Stuff
-RICE_MAINTAINER := SharmaG
+RICE_MAINTAINER := Mahim
 RICE_OFFICIAL := true
